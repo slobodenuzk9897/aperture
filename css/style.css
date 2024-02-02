@@ -142,7 +142,7 @@ line-height: 20px;
     height: 16px;
     margin-right: 6px;
     position: relative;
-    bottom: -20px;
+    bottom: -16px;
     right: 20px;
 }
 
@@ -153,7 +153,7 @@ line-height: 20px;
     height: 16px;
     margin-right: 6px;
     position: relative;
-    bottom: -20px;
+    bottom: -16px;
     right: 21px;
     
 }
@@ -164,7 +164,7 @@ line-height: 20px;
     height: 16px;
     margin-right: 6px;
     position: relative;
-    bottom: -21px;
+    bottom: -17px;
     right: 35px;
 }
 .mini-icons li:last-of-type:before {
@@ -174,7 +174,7 @@ line-height: 20px;
     height: 16px;
     margin-right: 6px;
     position: relative;
-    bottom: -20px;
+    bottom: -16px;
     right: 14px;
     
 }
@@ -207,11 +207,25 @@ list-style: none;
     margin-left: 38px;
 }
 
+.clients {
+    padding: 40px 0;
+    margin: auto;
+    background-color: #000;
+}
+
+.wrapper_clients {
+    max-width: 1200px;
+}
 
 
-
-
-
+.name_clients {
+    font-family: var(--font-family);
+font-weight: 400;
+font-size: 40px;
+line-height: 105%;
+text-align: center;
+color: #fff;
+}
 
 
 
