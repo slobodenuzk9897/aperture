@@ -208,24 +208,60 @@ list-style: none;
 }
 
 .clients {
-    padding: 40px 0;
+    padding: 120px 0 100px 0;
     margin: auto;
     background-color: #000;
 }
 
 .wrapper_clients {
     max-width: 1200px;
+    margin: auto;
+    
+}
+
+.wrapper_comp {
+    
+    
 }
 
 
 .name_clients {
-    font-family: var(--font-family);
+    font-family: "Poppins", sans-serif;
 font-weight: 400;
 font-size: 40px;
 line-height: 105%;
 text-align: center;
 color: #fff;
+margin-bottom: 15px;
 }
+
+
+.text_clients {
+    font-family: "Poppins", sans-serif;
+font-weight: 400;
+font-size: 24px;
+line-height: 125%;
+text-align: center;
+color: #c0c0c0;
+text-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.25);
+margin-bottom: 42px;
+}
+
+.wrapper_mini_clients {
+    display: flex;
+justify-content: space-between;
+align-items: center;
+margin: auto;
+gap: 109px;
+}
+
+
+
+
+
+
+
+
 
 
 
