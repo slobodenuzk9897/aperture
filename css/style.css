@@ -253,9 +253,15 @@ justify-content: space-between;
 align-items: center;
 margin: auto;
 gap: 109px;
+/* max-width: 128px; */
 }
 
-
+.owl-carousel .owl-item img{
+    max-width: 128px;
+    width: auto;
+    display: inline-block;
+    align-items: center;
+}
 
 
 
